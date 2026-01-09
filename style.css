@@ -6,6 +6,15 @@
     background-color: rgb(255, 255, 255);
 }
 
+.navmenu:hover
+{
+    background-color: rgb(82, 199, 80);
+    padding: 5px;
+    transition: 300ms;
+    border-radius: 3px;
+
+}
+
 .menu-item
 {
     display: flex;
@@ -179,6 +188,7 @@ li a
     box-shadow: -1px -1px 6px rgb(194, 194, 194);
     padding-left: 20px;
     padding-right: 20px;
+    border-radius: 5px;
 }
 
 .cart:hover
@@ -331,4 +341,14 @@ hr
 .logolink
 {
     padding-right: 5px;
+}
+
+.footicon
+{
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.footicon:hover
+{
+    transform: scale(1.5);
+    
 }
